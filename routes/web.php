@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Log;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -39,19 +40,8 @@ Route::get('/photos', function () {
     return view('photos');
 });
 
-
-
-
-
-use Illuminate\Http\Request;
-use App\Mail\ContactMail;
-use Illuminate\Support\Facades\Mail;
-
 Route::get('/contactus', function(){
     return view('contactus');
 });
 
-Route::post('/contactus', function(Request $request){
-    Mail::send(new ContactMail($request));
-    return redirect('/');
-});
+Route::post('/contactus', 'ContactController@store');
