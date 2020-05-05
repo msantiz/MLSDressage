@@ -49,7 +49,7 @@
 
         <a href="./contactus">Contact Us</a>
 
-        <a href="./photo.html">Photo Gallery</a>
+        <a href="./photos">Photo Gallery</a>
 
 
 
