@@ -9,7 +9,7 @@
 
         <h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Mara Santiz Dressage</b></font></center></h1>
 
-<img src = "../images/Mara new copy.png" width="150" height="150" align = "left" class="horse">
+<img src = "../images/logo2020.png" width="150" height="150" align = "left" class="horse">
 
 <div class = "flex">
 
@@ -45,7 +45,7 @@
 
     <a href="./contactus">Contact Us</a>
 
-    <a href="./photo.html">Photo Gallery</a>
+    <a href="./photos">Photo Gallery</a>
 
 
 
@@ -323,7 +323,7 @@ before the retirement of my competition horse in early 2018**</i></font><br><br>
 <ul>
 <li>2013 Open Champion 3'0 Equitation Class at Woodbine</li>
 </ul>
-<font><br><br>
+<font><br>
 
 </div>
 <br><br>

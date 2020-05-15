@@ -41,17 +41,11 @@ Route::get('/photos', function () {
 
 
 
+use Illuminate\Support\Facades\Log;
 
-
-use Illuminate\Http\Request;
-use App\Mail\ContactMail;
-use Illuminate\Support\Facades\Mail;
 
 Route::get('/contactus', function(){
     return view('contactus');
 });
 
-Route::post('/contactus', function(Request $request){
-    Mail::send(new ContactMail($request));
-    return redirect('/');
-});
+Route::post('/contactus', 'ContactController@store');

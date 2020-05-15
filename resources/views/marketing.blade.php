@@ -9,7 +9,7 @@
 
         <h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Mara Santiz Dressage</b></font></center></h1>
 
-<img src = "../images/Mara new copy.png" width="150" height="150" align = "left" class="horse">
+<img src = "../images/logo2020.png" width="150" height="150" align = "left" class="horse">
 
 <div class = "flex">
 
@@ -45,7 +45,7 @@
 
     <a href="./contactus">Contact Us</a>
 
-    <a href="./photo.html">Photo Gallery</a>
+    <a href="./photos">Photo Gallery</a>
 
 
 

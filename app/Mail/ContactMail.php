@@ -40,11 +40,15 @@ class ContactMail extends Mailable
                     ->view('contactmail');
     }
     
-    public function test_input($data)
+    public function test_input(Request $request)
     {
-        $data = trim($data);
-        $data = stripslashes($data);
-        $data = htmlspecialchars($data);
-        return $data;
+        $validatedData = $request->validate([
+            'name' => 'required|max:30',
+            'email' => 'required|max:35',
+            'phone' => 'required|numeric',
+            'message' => 'required|alpha_num'
+        ]);
+        \App\Form::create($validatedData);
+        return response()->json('Form is successfuly validated');
     }
 }
