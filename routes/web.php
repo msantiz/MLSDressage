@@ -11,6 +11,8 @@
 |
 */
 
+use Illuminate\Support\Facades\Log;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -41,7 +43,7 @@ Route::get('/photos', function () {
 
 
 
-use Illuminate\Support\Facades\Log;
+
 
 
 Route::get('/contactus', function(){

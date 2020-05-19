@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 class ContactController extends Controller
 {
-    public function store(contact $request){
+    public function store(Contact $request){
         Log::emergency("Made it to the store");
         Mail::send(new ContactMail($request));
         return redirect('/');
