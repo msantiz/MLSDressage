@@ -245,6 +245,7 @@ background-color:   #C0C0C0;
 }
 
 .box{
+  position: relative;
   border:3px;
 border-style:solid;
 border-color:white;
@@ -416,7 +417,7 @@ emphasis on keeping the horse through the back and light off the aids.</p>
 young horses, difficult horses, and OTTBs. She specializes in Dressage and
 has a background in Eventing.</p><br><br><br>
 
------------------------------------------֎----------------------------------------<br><br><br>Select Accomplishments</center>
+---------------֎---------------<br><br><br>Select Accomplishments</center>
 
  
 
