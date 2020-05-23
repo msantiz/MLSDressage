@@ -245,6 +245,7 @@ background-color:   #C0C0C0;
 }
 
 .box{
+  position: relative;
   border:3px;
 border-style:solid;
 border-color:white;
@@ -290,9 +291,9 @@ margin: 42px*/
 
 
 <div class = "bigbox">
-<br><br>
+<br>
 <div class = "box">
-<center><font size = "5" face = "roboto" color = "white"><<p>My name is Mara Santiz and I am 23 years old. I recently<br>
+<center><font size = "5" face = "roboto" color = "white"><p>My name is Mara Santiz and I am 23 years old. I recently<br>
 graduated from the University of Michigan-Dearborn, and
 I started my career as an Information Technology Ford
 College Graduate at Ford Motor Company in September.</p>
@@ -330,10 +331,10 @@ can bring these values to the Equestrian community.</p>
 <p>If you would like to discuss anything about the Equestrian
 community, Dressage, my journey, or your company's future role
 in my success, please feel free to contact me.</p>
-</font></center><br>
+</font></center>
 
 </div>
-<br><br>
+<br>
 </div>
  
 

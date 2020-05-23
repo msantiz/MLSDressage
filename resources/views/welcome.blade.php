@@ -254,6 +254,7 @@ margin: 42px;
 
 .bigbox{
 display: block;
+padding:3em;
     background-color: #333;
     left: 50%;
     transform: translateX(-50%);
@@ -406,14 +407,14 @@ margin: 42px*/
 
 <br><br><br>
 
-<center><font size = "5" face = "roboto" color = "white">Mara Santiz Dressage is located in Ann Arbor, Michigan.<br>
+<center><font size = "5" face = "roboto" color = "white"><p>Mara Santiz Dressage is located in Ann Arbor, Michigan.
 
-This program strives to bring out the best in each horse, and places<br>
-emphasis on keeping the horse through the back and light off the aids.<br><br>
+This program strives to bring out the best in each horse, and places
+emphasis on keeping the horse through the back and light off the aids.</p>
 
-Mara is known for her ability to work with an array of horses, including<br>
-young horses, difficult horses, and OTTBs. She specializes in Dressage and<br>
-has a background in Eventing.<br><br><br>
+<p>Mara is known for her ability to work with an array of horses, including
+young horses, difficult horses, and OTTBs. She specializes in Dressage and
+has a background in Eventing.</p><br><br><br>
 
 -----------------------------------------֎----------------------------------------<br><br><br>Select Accomplishments</center>
 
