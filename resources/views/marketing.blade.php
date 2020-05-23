@@ -292,44 +292,44 @@ margin: 42px*/
 <div class = "bigbox">
 <br><br>
 <div class = "box">
-<center><font size = "5" face = "roboto" color = "white">My name is Mara Santiz and I am 23 years old. I recently<br>
-graduated from the University of Michigan-Dearborn, and<br>
-I started my career as an Information Technology Ford<br>
-College Graduate at Ford Motor Company in September.<br><br>
-During my time as a full-time student, I gave new meaning<br>
-to the idea of hard work. While completing 18 hours of<br>
-coursework per semester, I also worked four jobs to<br>
-support my goals in the horse world. I was a math tutor,<br>
-a riding instructor, a barn manager, and a substitute<br>
-teacher. Even now, I still tutor several students and am<br>
-still a barn manager, while working my full-time job at Ford.<br><br>
-My horse, Ferdinand, has had to retire due to an old injury<br>
-he sustained before I purchased him. I spend over an hour<br>
-each day caring for him, and I make sure he receives<br>
-everything he needs. Luckily, I have been able to ride several<br>
-horses for other people which has improved my riding ability<br>
-tremendously.<br><br>
-My future plans include purchasing a young horse with Olympic<br>
-potential, and my end goal is of course, to compete in the<br>
-Olympic Games. The Equestrian sport is an untapped market for<br>
-many businesses, and I believe with my strong ties to the<br>
-industry, I can help companies to enter this lucrative market.<br>
-According to the recent 2017 National Economic Impact Study,<br>
-over 4.6 billion people are involved in the Equestrian industry,<br>
-and the industry contributes $122 billion to the U.S. economy.<br>
-Pairing a future international athlete with your company would be<br>
-a great way to tap into this market. I have worked hard and<br>
-sacrificed many things to become a rising star in the Dressage<br>
-industry, and intend to show the world what I can do once I am<br>
-able to purchase my new equine partner next year.<br><br>
-I embody the values of commit and excellence, and am a very<br>
-reliable and loyal person. I am also highly motivated and<br>
-innovative, and I persevere when others would give up. I would<br>
-ask that you consider partnering with me, with the hope that we<br>
-can bring these values to the Equestrian community.<br><br>
-If you would like to discuss anything about the Equestrian<br>
-community, Dressage, my journey, or your company's future role<br>
-in my success, please feel free to contact me.<br>
+<center><font size = "5" face = "roboto" color = "white"><<p>My name is Mara Santiz and I am 23 years old. I recently<br>
+graduated from the University of Michigan-Dearborn, and
+I started my career as an Information Technology Ford
+College Graduate at Ford Motor Company in September.</p>
+<p>During my time as a full-time student, I gave new meaning
+to the idea of hard work. While completing 18 hours of
+coursework per semester, I also worked four jobs to
+support my goals in the horse world. I was a math tutor,
+a riding instructor, a barn manager, and a substitute
+teacher. Even now, I still tutor several students and am
+still a barn manager, while working my full-time job at Ford.</p>
+<p>My horse, Ferdinand, has had to retire due to an old injury
+he sustained before I purchased him. I spend over an hour
+each day caring for him, and I make sure he receives
+everything he needs. Luckily, I have been able to ride several
+horses for other people which has improved my riding ability
+tremendously.</p>
+<p>My future plans include purchasing a young horse with Olympic
+potential, and my end goal is of course, to compete in the
+Olympic Games. The Equestrian sport is an untapped market for
+many businesses, and I believe with my strong ties to the
+industry, I can help companies to enter this lucrative market.
+According to the recent 2017 National Economic Impact Study,
+over 4.6 billion people are involved in the Equestrian industry,
+and the industry contributes $122 billion to the U.S. economy.
+Pairing a future international athlete with your company would be
+a great way to tap into this market. I have worked hard and
+sacrificed many things to become a rising star in the Dressage
+industry, and intend to show the world what I can do once I am
+able to purchase my new equine partner next year.</p>
+<p>I embody the values of commit and excellence, and am a very
+reliable and loyal person. I am also highly motivated and
+innovative, and I persevere when others would give up. I would
+ask that you consider partnering with me, with the hope that we
+can bring these values to the Equestrian community.</p>
+<p>If you would like to discuss anything about the Equestrian
+community, Dressage, my journey, or your company's future role
+in my success, please feel free to contact me.</p>
 </font></center><br>
 
 </div>
