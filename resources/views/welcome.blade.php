@@ -412,7 +412,7 @@ This program strives to bring out the best in each horse, and places<br>
 emphasis on keeping the horse through the back and light off the aids.<br><br>
 
 Mara is known for her ability to work with an array of horses, including<br>
-young horses, difficult horses, and OTTBs. She specializes Dressage, and<br>
+young horses, difficult horses, and OTTBs. She specializes in Dressage and<br>
 has a background in Eventing.<br><br><br>
 
 -----------------------------------------֎----------------------------------------<br><br><br>Select Accomplishments</center>
