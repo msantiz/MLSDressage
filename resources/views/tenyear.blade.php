@@ -245,6 +245,7 @@ background-color:   #C0C0C0;
 }
 
 .box{
+    position: relative;
   border:3px;
 border-style:solid;
 border-color:white;
@@ -290,7 +291,7 @@ margin: 42px*/
 
 
 <div class = "bigbox">
-<br><br>
+<br>
 <div class = "box">
 <center><font size = "7" face = "Georgia" color = "white"><b>2021</b></font></center><br>
 
@@ -823,7 +824,7 @@ margin: 42px*/
 
 
 </div>
-<br><br>
+<br>
 </div>
  
 
