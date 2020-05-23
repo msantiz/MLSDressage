@@ -290,7 +290,7 @@ margin: 42px*/
 
 
 <div class = "bigbox">
-<br><br>
+<br>
 <div class = "box">
 <br><font size = "4.5" face = "roboto" color = "white"><i>**Note: all awards listed below were achieved
 before the retirement of my competition horse in early 2018**</i></font><br><br>
@@ -326,7 +326,7 @@ before the retirement of my competition horse in early 2018**</i></font><br><br>
 <font><br>
 
 </div>
-<br><br>
+<br>
 </div>
  
 

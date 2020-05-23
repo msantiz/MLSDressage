@@ -290,7 +290,7 @@ margin: 42px*/
 
 
 <div class = "bigbox">
-<br><br>
+<br>
 <div class = "box"><br>
 <font size = "6" face = "roboto" color = "white"><b>Associate Product Manager</b></font><br>
 <font size = "6" face = "roboto" color = "white">Ford Motor Company</font><br>
@@ -332,7 +332,7 @@ margin: 42px*/
 </ul>
 </font><br>
 </div>
-<br><br>
+<br>
 </div>
  
 

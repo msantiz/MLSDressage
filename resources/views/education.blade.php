@@ -290,7 +290,7 @@ margin: 42px*/
 
 
 <div class = "bigbox">
-<br><br>
+<br>
 <div class = "box"><br>
 <font size = "6" face = "roboto" color = "white"><b>University of Michigan-Dearborn</b></font><br>
 <font size = "5" face = "roboto" color = "white">Master of Buisness Administration</font><br>
@@ -319,7 +319,7 @@ margin: 42px*/
 </ul>
 </font><br>
 </div>
-<br><br>
+<br>
 </div>
  
 
