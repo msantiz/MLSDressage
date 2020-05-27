@@ -255,6 +255,7 @@ background-color: #C0C0C0;
 }
 
 .bigbox{
+  padding:1em;
 display: block;
     background-color: #333;
     left: 50%;
@@ -319,8 +320,9 @@ display: block;
 </div><br><br><br>
 
  
-
-<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94471.64080072628!2d-83.80772974902668!3d42.273426116098115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cb00dd4431f33%3A0xdb09f94686c8b5e2!2sAnn%20Arbor%2C%20MI!5e0!3m2!1sen!2sus!4v1584385110878!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center><br><br><br>                   
+<div class="google-maps">
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94471.64080072628!2d-83.80772974902668!3d42.273426116098115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cb00dd4431f33%3A0xdb09f94686c8b5e2!2sAnn%20Arbor%2C%20MI!5e0!3m2!1sen!2sus!4v1584385110878!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center><br><br><br><br><br><br><br>        
+</div>
 
  <?php $name = $email = $phone = $content = "";?>
 <div class = "boxes">
@@ -374,6 +376,21 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </body>
 
 <style>
+.google-maps{
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe{
+position: absolute;
+top: 0;
+left: 50%;
+transform: translateX(-50%);
+width: 85% !important;
+height: 85% !important;
+}
 
 input[type=text], select, input[type=email], input[type=phone]{
 
