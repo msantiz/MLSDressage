@@ -393,7 +393,7 @@ height: 85% !important;
 }
 
 input[type=text], select, input[type=email], input[type=phone]{
-
+              position: relative;
               width: 100%;
 
               padding: 12px;
@@ -415,7 +415,7 @@ input[type=text], select, input[type=email], input[type=phone]{
 textarea{
   width: 100%;
   height: 150px;
-
+              position: relative;
               padding: 12px;
 
               border: 1 px solid #ccc;
@@ -434,6 +434,7 @@ textarea{
  
 
 input[type=submit]{
+  position: relative;
               background-color: #4CAF50;
 
               color: white;
@@ -459,7 +460,7 @@ input[type=submit]:hover{
  
 
 .form-group{
-
+            position: relative;
               padding: 20px;
 
 }
@@ -467,7 +468,7 @@ input[type=submit]:hover{
  
 
 .contact {
-
+              position: relative;
               display: flex;
 
               justify-content: space-around;
@@ -501,7 +502,7 @@ input[type=submit]:hover{
  
 
 .fa-facebook{
-
+              position: relative;
               background: #3B5998;
 
               color: white;
@@ -511,7 +512,7 @@ input[type=submit]:hover{
  
 
 .fa-instagram{
-
+              position: relative;
               background: purple;
 
               color: white;
@@ -521,7 +522,7 @@ input[type=submit]:hover{
  
 
 .fa-youtube{
-
+              position: relative;
               background: red;
 
               color: white;
@@ -530,7 +531,23 @@ input[type=submit]:hover{
 
  
 
+ @media screen and (max-width: 700px){
+   .contact{
+     flex-direction: column;
+   }
+   .horse{
+     width: 90px;
+     height: 90px;
+   }
+   .header{
+     flex-direction: column;
+   }
  
+ }
+
+ @media screen and (max-width: 900px){
+
+ }
 
  
 

@@ -294,8 +294,9 @@ margin: 42px*/
 <br>
 <div class = "box">
 <center><font size = "7" face = "Georgia" color = "white"><b>2021</b></font></center><br>
+<div style ="overflow-x:auto;">
+<table style= "width:100%">
 
-<table style="width:100%">
     
     <tr>
         <th><font size = "5" face = "roboto" color = "white">Steps</font></th>
@@ -304,7 +305,10 @@ margin: 42px*/
         <th><font size = "5" face = "roboto" color = "white">Goal 3</font></th>
         <th><font size = "5" face = "roboto" color = "white">Goal 4</font></th>
     </tr>
-    <font size = "5" face = "roboto" color = "white">
+
+
+    <tbody>
+  
     <tr>
         <th></th>
         <td><font size = "4" face = "roboto" color = "white"><i><b>Purchase a 2 year-old gelding in Spring</b></i></font></td>
@@ -347,12 +351,14 @@ margin: 42px*/
         <td><font size = "4" face = "roboto" color = "white">FHA loan</font></td>
         <td><font size = "4" face = "roboto" color = "white">Network when possible</font></td>
     </tr>
-    </font>
+  
+    </tbody>
 </table>
+</div>
 
 <br><br>
 <center><font size = "7" face = "Georgia" color = "white"><b>2022</b></font></center><br>
-
+<div style ="overflow-x:auto;">
 <table style="width:100%">
     
     <tr>
@@ -407,10 +413,11 @@ margin: 42px*/
     </tr>
     </font>
 </table>
+</div>
 
 <br><br>
 <center><font size = "7" face = "Georgia" color = "white"><b>2023</b></font></center><br>
-
+<div style ="overflow-x:auto;">
 <table style="width:100%">
     
     <tr>
@@ -459,10 +466,11 @@ margin: 42px*/
 
     </font>
 </table>
+</div>
 <br><br>
 
 <center><font size = "7" face = "Georgia" color = "white"><b>2024</b></font></center><br>
-
+<div style ="overflow-x:auto;">
 <table style="width:100%">
     
     <tr>
@@ -517,10 +525,11 @@ margin: 42px*/
     </tr>
     </font>
 </table>
+</div>
 <br><br>
 
 <center><font size = "7" face = "Georgia" color = "white"><b>2025</b></font></center><br>
-
+<div style ="overflow-x:auto;">
 <table style="width:100%">
     
     <tr>
@@ -575,10 +584,11 @@ margin: 42px*/
     </tr>
     </font>
 </table>
+</div>
 <br><br>
 
 <center><font size = "7" face = "Georgia" color = "white"><b>2026</b></font></center><br>
-
+<div style ="overflow-x:auto;">
 <table style="width:100%">
     
     <tr>
@@ -633,10 +643,11 @@ margin: 42px*/
     </tr>
     </font>
 </table>
+</div>
 <br><br>
 
 <center><font size = "7" face = "Georgia" color = "white"><b>2027</b></font></center><br>
-
+<div style ="overflow-x:auto;">
 <table style="width:100%">
     
     <tr>
@@ -691,10 +702,11 @@ margin: 42px*/
     </tr>
     </font>
 </table>
+</div>
 <br><br>
 
 <center><font size = "7" face = "Georgia" color = "white"><b>2028</b></font></center><br>
-
+<div style ="overflow-x:auto;">
 <table style="width:100%">
     
     <tr>
@@ -729,10 +741,11 @@ margin: 42px*/
     
     </font>
 </table>
+</div>
 <br><br>
 
 <center><font size = "7" face = "Georgia" color = "white"><b>2029</b></font></center><br>
-
+<div style ="overflow-x:auto;">
 <table style="width:100%">
     
     <tr>
@@ -781,10 +794,11 @@ margin: 42px*/
     
     </font>
 </table>
+</div>
 <br><br>
 
 <center><font size = "7" face = "Georgia" color = "white"><b>2030</b></font></center><br>
-
+<div style ="overflow-x:auto;">
 <table style="width:100%">
     
     <tr>
@@ -820,6 +834,7 @@ margin: 42px*/
     
     </font>
 </table>
+</div>
 <br>
 
 
@@ -867,6 +882,41 @@ th{
     background-color: #808080;
     opacity: 0.6;
 }
+
+/*@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px){
+    table, thead, tbody, th, td, tr{
+        display: block;
+    }
+    thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr{
+        border: 1 px solid #ccc;
+    }
+    td{
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+    td:before{
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    
+    td:nth-of-type(1):before {content: "Steps";}
+    td:nth-of-type(2):before {content: "Goal 1";}
+    td:nth-of-type(3):before {content: "Goal 2";}
+    td:nth-of-type(4):before {content: "Goal 3";}
+    td:nth-of-type(5):before {content: "Goal 4";}
+
+}*/
 
 *{box-sizing:border-box}
 

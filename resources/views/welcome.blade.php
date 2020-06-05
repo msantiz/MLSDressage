@@ -415,9 +415,9 @@ emphasis on keeping the horse through the back and light off the aids.</p>
 
 <p>Mara is known for her ability to work with an array of horses, including
 young horses, difficult horses, and OTTBs. She specializes in Dressage and
-has a background in Eventing.</p><br><br><br>
+has a background in Eventing.</p><br><br>
 
----------------֎---------------<br><br><br>Select Accomplishments</center>
+---------֎---------<br><br><br>Select Accomplishments</center>
 
  
 
@@ -595,7 +595,17 @@ img{vertical-align: middle;}
 
 }
 
- 
+ @media only screen and (max-width: 900px){
+   .list{
+     flex-direction: column;
+   }
+
+ }
+ @media only screen and (max-width: 600px){
+  .box{
+     font-size: 11px;
+   }
+ }
 
 .list {
 
