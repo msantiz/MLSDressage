@@ -8,8 +8,9 @@
 
         <h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Mara Santiz Dressage</b></font></center></h1>
 
+<div class = "picture">
 <img src = "../images/logo2020.png" width="150" height="150" align = "left" class="horse">
-
+</div>
 <div class = "flex">
 
 <div class="navbar">
@@ -324,6 +325,8 @@ display: block;
 <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94471.64080072628!2d-83.80772974902668!3d42.273426116098115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cb00dd4431f33%3A0xdb09f94686c8b5e2!2sAnn%20Arbor%2C%20MI!5e0!3m2!1sen!2sus!4v1584385110878!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center><br><br><br><br><br><br><br>        
 </div>
 
+
+<div style ="overflow-x:auto;">
  <?php $name = $email = $phone = $content = "";?>
 <div class = "boxes">
 <form action = "{{url('/contactus')}}" method = "post">
@@ -348,8 +351,9 @@ display: block;
     <label>Message:</label><br>
     <textarea name = "content" class = "form-control"></textarea>
 </div>
-<pre>                                   <button type ="submit" class = "btn btn-primary">Submit</button></pre>
+                                   <div class="submit-section" style="display: flex; margin-left: 80%;"><button type ="submit" class = "btn btn-primary">Submit</button></div>
 </form>
+
 
 
 <?php
@@ -365,7 +369,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 ?>
 </div><br><br><br>
              
-
+</div>
  
 
              
@@ -531,23 +535,41 @@ input[type=submit]:hover{
 
  
 
- @media screen and (max-width: 700px){
+ @media screen and (max-width: 900px){
    .contact{
      flex-direction: column;
+     text-align: center;
    }
-   .horse{
-     width: 90px;
-     height: 90px;
-   }
-   .header{
-     flex-direction: column;
+   .picture{
+     display: flex;
+     justify-content: center;
+     margin-block-start: 1.34em;
+     margin-block-end: 1.34em;
    }
  
+ .horse{
+   position: relative;
+   margin-right: 45px;
+   margin-bottom: 40px;
+ }
+ .boxes{
+   width: 250px;
+ }
+ .submit-section{
+   color: white;
+ }
+ 
+ /*.bigbox{
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   width: 85%;
+ }*/
+
  }
 
- @media screen and (max-width: 900px){
-
- }
+ 
+ 
 
  
 

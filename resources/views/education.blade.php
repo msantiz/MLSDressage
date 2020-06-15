@@ -296,7 +296,7 @@ margin: 42px*/
 <font size = "5" face = "roboto" color = "white">Master of Buisness Administration</font><br>
 <font size = "5" face = "roboto" color = "white">Concentration in Information Systems Management-Cybersecurity</font><br>
 <font size = "5" face = "roboto" color = "white">Cummulative GPA: 4.0</font><br>
-<font size = "5" face = "roboto" color = "white">Expected Graduation: Spring 2022</font><br><br><br>
+<font size = "5" face = "roboto" color = "white">Expected Graduation: Winter 2022</font><br><br><br>
 
 <font size = "6" face = "roboto" color = "white"><b>University of Michigan-Dearborn</b></font><br>
 <font size = "5" face = "roboto" color = "white">BBA- Information Systems Management</font><br>
