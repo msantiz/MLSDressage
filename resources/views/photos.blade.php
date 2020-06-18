@@ -9,7 +9,9 @@
 
         <h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Mara Santiz Dressage</b></font></center></h1>
 
+<div class="picture">
 <img src = "../images/logo2020.png" width="150" height="150" align = "left" class="horse">
+</div>
 
 <div class = "flex">
 
@@ -812,4 +814,25 @@ function showSlides(n){
 
         
     </body>
+
+    <style>
+@media screen and (max-width: 900px){
+
+   .picture{
+     display: flex;
+     justify-content: center;
+     margin-block-start: 1.34em;
+     margin-block-end: 1.34em;
+   }
+ 
+ .horse{
+   position: relative;
+   margin-right: 45px;
+   margin-bottom: 40px;
+ }
+ 
+
+ }
+</style>
+
 </html>
