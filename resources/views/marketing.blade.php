@@ -304,11 +304,11 @@ to the idea of hard work. While completing 18 hours of
 coursework per semester, I also worked four jobs to
 support my goals in the horse world. I was a math tutor,
 a riding instructor, a barn manager, and a substitute
-teacher. Even now, I still tutor several students and am
-still a barn manager, while working my full-time job at Ford.</p>
+teacher. Even now, I still teach riding lessons and am
+a barn manager, all while working my full-time job at Ford.</p>
 <p>My horse, Ferdinand, has had to retire due to an old injury
 he sustained before I purchased him. I spend over an hour
-each day caring for him, and I make sure he receives
+each day caring for him, making sure he receives
 everything he needs. Luckily, I have been able to ride several
 horses for other people which has improved my riding ability
 tremendously.</p>
@@ -325,7 +325,7 @@ a great way to tap into this market. I have worked hard and
 sacrificed many things to become a rising star in the Dressage
 industry, and intend to show the world what I can do once I am
 able to purchase my new equine partner next year.</p>
-<p>I embody the values of commit and excellence, and am a very
+<p>I embody the values of commitment and excellence, and am a very
 reliable and loyal person. I am also highly motivated and
 innovative, and I persevere when others would give up. I would
 ask that you consider partnering with me, with the hope that we

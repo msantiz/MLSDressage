@@ -343,12 +343,12 @@ display: block;
 </div>
 
 <div class = "form-group">
-    <label>Phone Number</label><br>
+    <label>Phone Number*</label><br>
     <input type = "phone" size = "50" name = "phone" class = "form-control">
 </div>
 
 <div class = "form-group">
-    <label>Message:</label><br>
+    <label>Message*</label><br>
     <textarea name = "content" class = "form-control"></textarea>
 </div>
                                    <div class="submit-section" style="display: flex; margin-left: 80%;"><button type ="submit" class = "btn btn-primary">Submit</button></div>

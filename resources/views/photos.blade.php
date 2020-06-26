@@ -286,6 +286,11 @@ margin: 42px*/
   padding: 0 8px;
 }
 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .row:after{
   content: "";
   display: table;
@@ -293,8 +298,9 @@ margin: 42px*/
 }
 
 .column{
+  flex: 25%;
   float: left;
-  width: 25%;
+  max-width: 25%;
 }
 
 .modal{
@@ -429,7 +435,7 @@ img.hover-shadow{
 
 <div class="row">
   
-  <div class="column">
+<div class="column">
   <div class="outline">
     <img src="../images/IMG_3173.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
@@ -483,8 +489,7 @@ img.hover-shadow{
 
 
 <div class="row">
-
-  <div class="column">
+<div class="column">
   <div class="outline">
     <img src="../images/EQUE1513.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
   </div>
@@ -830,6 +835,11 @@ function showSlides(n){
    margin-right: 45px;
    margin-bottom: 40px;
  }
+ .column{
+   flex: 100%;
+   max-width: 100%;
+ }
+
  
 
  }

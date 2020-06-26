@@ -314,7 +314,7 @@ before the retirement of my competition horse in early 2018**</i></font><br><br>
 <li>Young Rider Champion at Novice Level at the 2013 Area IIIV Championships</li>
 <li>2013 USEA Area IIIV Novice Young Rider Champion</li>
 <li>2013 USEA Area IIIV Novice Rider Reserve Champion</li>
-<li>2013 USEA Area IIIV Novice HorseC Champion</li>
+<li>2013 USEA Area IIIV Novice Horse Champion</li>
 <li>2013, 2011 TEAM High Point Dressage Horse Champion Award</li>
 </ul></font><br>
 

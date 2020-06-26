@@ -513,7 +513,7 @@ margin: 42px*/
     </tr>
     <tr>
         <th><font size = "5" face = "roboto" color = "white">Step 4</font></th>
-        <td><font size = "4" face = "roboto" color = "white">Appy for the program</font></td>
+        <td><font size = "4" face = "roboto" color = "white">Apply for the program</font></td>
         <td><font size = "4" face = "roboto" color = "white"></font></td>
         <td><font size = "4" face = "roboto" color = "white"></font></td>
         <td><font size = "4" face = "roboto" color = "white"></font></td>
