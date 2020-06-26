@@ -1131,6 +1131,7 @@ function showSlides(){
 
         
     </body>
+<<<<<<< HEAD
 
 <style>
 @media screen and (max-width: 900px){
@@ -1153,3 +1154,6 @@ function showSlides(){
 </style>
 
 </html>
+=======
+</html>
+>>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0

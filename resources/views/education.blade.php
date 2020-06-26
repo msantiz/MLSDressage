@@ -331,6 +331,7 @@ margin: 42px*/
 
         
     </body>
+<<<<<<< HEAD
 
     <style>
 @media screen and (max-width: 900px){
@@ -353,3 +354,6 @@ margin: 42px*/
 </style>
 
 </html>
+=======
+</html>
+>>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
