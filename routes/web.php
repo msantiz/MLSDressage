@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Log;
 |
 */
 
-use Illuminate\Support\Facades\Log;
 
 Route::get('/', function () {
     return view('welcome');
@@ -42,20 +41,13 @@ Route::get('/photos', function () {
     return view('photos');
 });
 
-<<<<<<< HEAD
 
 
 
 
 
-=======
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
 Route::get('/contactus', function(){
     return view('contactus');
 });
 
-<<<<<<< HEAD
 Route::post('/contactus', 'ContactController@store');
-=======
-Route::post('/contactus', 'ContactController@store');
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
