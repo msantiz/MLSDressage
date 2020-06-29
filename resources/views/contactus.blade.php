@@ -6,21 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <div class="header">
+  <h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Mara Santiz Dressage</b></font></center></h1>
 
-<<<<<<< HEAD
 <div class = "picture">
 <img src = "../images/logo2020.png" width="150" height="150" align = "left" class="horse">
 </div>
-<div class = "flex">
-=======
-    <h1>
-      <center>
-        <font size="10" face="Georgia" color="black"> <b>Mara Santiz Dressage</b></font>
-      </center>
-    </h1>
-
-    <img src="../images/Mara new copy.png" width="150" height="150" align="left" class="horse">
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
 
     <div class="flex">
 
@@ -54,11 +44,8 @@
         <a href="./marketing">Marketing Pitch</a>
         <a href="https://dressagediscussions.home.blog/" target="_blank">Blog</a>
 
-<<<<<<< HEAD
-    <a href="./photos">Photo Gallery</a>
-=======
+
         <a href="./contactus">Contact Us</a>
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
 
         <a href="./photos">Photo Gallery</a>
 
@@ -259,11 +246,7 @@
 
   }
 
-<<<<<<< HEAD
-.bigbox{
-  padding:1em;
-display: block;
-=======
+
   .boxes {
     display: inline-block;
     position: relative;
@@ -277,7 +260,6 @@ display: block;
 
   .bigbox {
     display: block;
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
     background-color: #333;
     left: 50%;
     transform: translateX(-50%);
@@ -346,7 +328,6 @@ display: block;
 
     </div><br><br><br>
 
-<<<<<<< HEAD
  
 <div class="google-maps">
 <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94471.64080072628!2d-83.80772974902668!3d42.273426116098115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cb00dd4431f33%3A0xdb09f94686c8b5e2!2sAnn%20Arbor%2C%20MI!5e0!3m2!1sen!2sus!4v1584385110878!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center><br><br><br><br><br><br><br>        
@@ -358,23 +339,18 @@ display: block;
 <div class = "boxes">
 <form action = "{{url('/contactus')}}" method = "post">
 {{csrf_field()}}
-=======
 
 
-    <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94471.64080072628!2d-83.80772974902668!3d42.273426116098115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cb00dd4431f33%3A0xdb09f94686c8b5e2!2sAnn%20Arbor%2C%20MI!5e0!3m2!1sen!2sus!4v1584385110878!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center><br><br><br>
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
-
-    <?php $name = $email = $phone = $content = ""; ?>
-    <div class="boxes">
-      <form action="/contactus" method="post">
-        {{csrf_field()}}
 
         <div class="form-group">
           <label>Name*</label><br>
           <input type="text" size="50" name="name" value="<?php echo $name; ?>" class="form-control">
         </div>
+        <div class = "form-group">
+    <label>Email*</label><br>
+    <input type = "email" size = "50" name = "email" class = "form-control">
+</div>
 
-<<<<<<< HEAD
 <div class = "form-group">
     <label>Phone Number*</label><br>
     <input type = "phone" size = "50" name = "phone" class = "form-control">
@@ -386,27 +362,8 @@ display: block;
 </div>
                                    <div class="submit-section" style="display: flex; margin-left: 80%;"><button type ="submit" class = "btn btn-primary">Submit</button></div>
 </form>
-=======
-        <div class="form-group">
-          <label>Email*</label><br>
-          <input type="email" size="50" name="email" class="form-control">
-        </div>
 
-        <div class="form-group">
-          <label>Phone Number</label><br>
-          <input type="phone" size="50" name="phone" class="form-control">
-        </div>
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
 
-        <div class="form-group">
-          <label>Message:</label><br>
-          <textarea name="content" class="form-control"></textarea>
-        </div>
-        <pre>                                   <button type ="submit" class = "btn btn-primary">Submit</button></pre>
-      </form>
-    </div><br><br><br>
-
-<<<<<<< HEAD
 
 <?php
 
@@ -420,15 +377,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 }
 ?>
 </div><br><br><br>
-             
 </div>
+             
+
  
-=======
-
-
-
-
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
 
 
   </div>
@@ -436,7 +388,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </body>
 
 <style>
-<<<<<<< HEAD
 .google-maps{
   position: relative;
   padding-bottom: 75%;
@@ -456,19 +407,8 @@ height: 85% !important;
 input[type=text], select, input[type=email], input[type=phone]{
               position: relative;
               width: 100%;
-=======
-  input[type=text],
-  select,
-  input[type=email],
-  input[type=phone] {
-
-    width: 100%;
-
-    padding: 12px;
-
-    border: 1 px solid #ccc;
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
-
+              padding: 12px;
+              border: 1 px solid #ccc;
     border-radius: 4px;
 
     box-sizing: border-box;
@@ -480,26 +420,16 @@ input[type=text], select, input[type=email], input[type=phone]{
     resize: vertical
   }
 
-  textarea {
-    width: 100%;
-    height: 150px;
 
-    padding: 12px;
 
-    border: 1 px solid #ccc;
-
-<<<<<<< HEAD
 textarea{
   width: 100%;
   height: 150px;
               position: relative;
               padding: 12px;
-=======
-    border-radius: 4px;
-
-    box-sizing: border-box;
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
-
+              border: 1 px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
     margin-top: 6px;
 
     margin-bottom: 16px;
@@ -510,17 +440,11 @@ textarea{
 
 
   input[type=submit] {
-    background-color: #4CAF50;
 
     color: white;
-
-<<<<<<< HEAD
-input[type=submit]{
   position: relative;
               background-color: #4CAF50;
-=======
-    padding: 12px 20px;
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
+              padding: 12px 20px;
 
     border: none;
 
@@ -540,29 +464,18 @@ input[type=submit]{
 
 
 
-<<<<<<< HEAD
 .form-group{
             position: relative;
               padding: 20px;
-=======
-  .form-group {
-
-    padding: 20px;
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
 
   }
 
 
-<<<<<<< HEAD
 .contact {
               position: relative;
               display: flex;
-=======
 
-  .contact {
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
-
-    display: flex;
+   
 
     justify-content: space-around;
 
@@ -587,51 +500,36 @@ input[type=submit]{
   }
 
   .fa:hover {
+    opacity: 0.7;
+  }
 
-<<<<<<< HEAD
 .fa-facebook{
               position: relative;
               background: #3B5998;
-=======
-    opacity: 0.7;
-
-  }
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
+              color: white;
 
 
 
-  .fa-facebook {
+}
 
-<<<<<<< HEAD
 .fa-instagram{
               position: relative;
               background: purple;
-=======
-    background: #3B5998;
-
-    color: white;
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
+              color: white;
 
   }
 
 
 
-<<<<<<< HEAD
 .fa-youtube{
               position: relative;
               background: red;
-=======
-  .fa-instagram {
-
-    background: purple;
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
 
     color: white;
 
   }
 
 
-<<<<<<< HEAD
  @media screen and (max-width: 900px){
    .contact{
      flex-direction: column;
@@ -663,18 +561,11 @@ input[type=submit]{
    width: 85%;
  }*/
 
- }
+ 
 
  
  
-=======
->>>>>>> 62c50caed168900022e23d697654e431ccb3d5a0
 
-  .fa-youtube {
-
-    background: red;
-
-    color: white;
 
   }
 </style>
