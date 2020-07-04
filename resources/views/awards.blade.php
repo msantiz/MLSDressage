@@ -338,7 +338,7 @@ before the retirement of my competition horse in early 2018**</i></font><br><br>
         
     </body>
 <style>
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
 
    .picture{
      display: flex;
@@ -352,6 +352,24 @@ before the retirement of my competition horse in early 2018**</i></font><br><br>
    margin-right: 45px;
    margin-bottom: 40px;
  }
+
+ .bigbox{
+display: block;
+padding:3em;
+    background-color: #333;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    position: relative;
+}
+
+.box{
+  border:3px;
+border-style:solid;
+border-color:white;
+padding:1em;
+margin: 10px;
+}
  
 
  }

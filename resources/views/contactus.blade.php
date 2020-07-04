@@ -288,7 +288,7 @@
           <font size="5" face="roboto" color="white"><u><b>Location</b></u></font>
         </center><br><br>
 
-        <font size="4" face="roboto" color="white">Ann Arbor, MI</font>
+        <font size="4" face="roboto" color="white">Ann Arbor, MI</font><br><br><br>
 
       </div>
       <div>
@@ -297,7 +297,7 @@
           <font size="5" face="roboto" color="white"><u><b>Phone</b></u></font>
         </center><br><br>
 
-        <font size="4" face="roboto" color="white">(734)-358-8017<br></font>
+        <font size="4" face="roboto" color="white">(734)-358-8017<br></font><br><br><br>
 
       </div>
 
@@ -307,7 +307,7 @@
           <font size="5" face="roboto" color="white"><u><b>E-mail</b></u></font>
         </center><br><br>
 
-        <font size="4" face="roboto" color="white">santizml@gmail.com<br></font>
+        <font size="4" face="roboto" color="white">santizml@gmail.com<br></font><br><br><br>
 
       </div>
 
@@ -322,11 +322,11 @@
 
             <a href="https://www.instagram.com/mlsdressage/" class="fa fa-instagram" target="_blank"></a>
 
-            <a href="https://www.youtube.com/channel/UCu7FzF8PsPr4eUWoNbBIHJQ" class="fa fa-youtube" target="_blank"></a>
+            <a href="https://www.youtube.com/channel/UCu7FzF8PsPr4eUWoNbBIHJQ" class="fa fa-youtube" target="_blank"></a><br><br>
 
       </div>
 
-    </div><br><br><br>
+    </div><br><br>
 
  
 <div class="google-maps">
@@ -472,15 +472,10 @@ box-sizing: border-box;
 
 
 .contact {
-              position: relative;
-              display: flex;
-
-   
-
-    justify-content: space-around;
-
-
-
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 45px;
   }
 
 
@@ -530,10 +525,11 @@ box-sizing: border-box;
   }
 
 
- @media screen and (max-width: 900px){
+ @media screen and (max-width: 1000px){
    .contact{
      flex-direction: column;
      text-align: center;
+     margin-left: 0px;
    }
    .picture{
      display: flex;
@@ -553,6 +549,16 @@ box-sizing: border-box;
  .submit-section{
    color: white;
  }
+
+ .bigbox{
+display: block;
+padding:3em;
+    background-color: #333;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    position: relative;
+}
  
  /*.bigbox{
    display: flex;

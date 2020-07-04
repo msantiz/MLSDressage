@@ -597,7 +597,7 @@ img{vertical-align: middle;}
 
 }
 
- @media only screen and (max-width: 900px){
+ @media only screen and (max-width: 1000px){
    .list{
      flex-direction: column;
    }
@@ -615,13 +615,21 @@ img{vertical-align: middle;}
    margin-bottom: 40px;
  }
 
+ 
+  .box{
+     font-size: 16px;
+   }
+   .bigbox{
+display: block;
+padding:3em;
+    background-color: #333;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    position: relative;
+}
  }
 
- @media only screen and (max-width: 600px){
-  .box{
-     font-size: 11px;
-   }
- }
 
 .list {
 
