@@ -295,21 +295,24 @@ margin: 42px*/
 <div class = "bigbox">
 <br>
 <div class = "box">
-<center><font size = "5" face = "roboto" color = "white"><p>My name is Mara Santiz and I am 23 years old. I recently<br>
+<center><font size = "5" face = "roboto" color = "white"><p>My name is Mara Santiz and I am 24 years old. I recently<br>
 graduated from the University of Michigan-Dearborn, and
-I started my career as an Information Technology Ford
-College Graduate at Ford Motor Company in September.</p>
+started my career as an Information Technology Ford
+College Graduate at Ford Motor Company in the fall of 2019.
+I received a promotion in December 2020 and am now a Product Manager- Specialist.</p>
 <p>During my time as a full-time student, I gave new meaning
 to the idea of hard work. While completing 18 hours of
 coursework per semester, I also worked four jobs to
-support my goals in the horse world. I was a math tutor,
+support my horse-related goals. I was a math tutor,
 a riding instructor, a barn manager, and a substitute
-teacher. Even now, I still teach riding lessons and am
-a barn manager, all while working my full-time job at Ford.</p>
+teacher. Even now, I have started my own web design business,
+I still teach riding lessons and am still 
+a barn manager, all while working my full-time job at Ford.
+I am also pursuing an MBA, with plans to graduate in 2024.</p>
 <p>My horse, Ferdinand, has had to retire due to an old injury
 he sustained before I purchased him. I spend over an hour
-each day caring for him, making sure he receives
-everything he needs. Luckily, I have been able to ride several
+each day caring for him and making sure he receives his medications.
+Luckily, I have been able to ride several
 horses for other people which has improved my riding ability
 tremendously.</p>
 <p>My future plans include purchasing a young horse with Olympic
@@ -319,15 +322,15 @@ many businesses, and I believe with my strong ties to the
 industry, I can help companies to enter this lucrative market.
 According to the recent 2017 National Economic Impact Study,
 over 4.6 billion people are involved in the Equestrian industry,
-and the industry contributes $122 billion to the U.S. economy.
+and the industry contributes $122 billion to the U.S. economy each year.
 Pairing a future international athlete with your company would be
-a great way to tap into this market. I have worked hard and
+a great way to tap into that market. I have worked hard and
 sacrificed many things to become a rising star in the Dressage
 industry, and intend to show the world what I can do once I am
-able to purchase my new equine partner next year.</p>
+able to purchase my new equine partner this spring.</p>
 <p>I embody the values of commitment and excellence, and am a very
 reliable and loyal person. I am also highly motivated and
-innovative, and I persevere when others would give up. I would
+innovative, and I always persevere. I would
 ask that you consider partnering with me, with the hope that we
 can bring these values to the Equestrian community.</p>
 <p>If you would like to discuss anything about the Equestrian

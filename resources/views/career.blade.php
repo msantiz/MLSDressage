@@ -329,6 +329,7 @@ margin: 42px*/
 <font size = "6" face = "roboto" color = "white"><b>Awards and Honors</b></font><br>
 <font size = "5" face = "roboto" color = "white">
 <ul>
+<li>Received a promotion: Product Manager- Specialist</li>
 <li>Ford Recognition Award - Security Efforts</li>
 <li>Completed the Ford Catalyst Innovation Program</li>
 </ul>
