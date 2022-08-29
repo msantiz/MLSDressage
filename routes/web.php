@@ -50,4 +50,21 @@ Route::get('/contactus', function(){
     return view('contactus');
 });
 
-Route::post('/contactus', 'ContactController@store');
+Route::get('/contact2', function(){
+    return view('contact2');
+});
+
+
+
+
+
+Route::middleware(['guest'])->group(function(){
+
+    //Route::get('/', [ContactMailController::class, 'index'])->name('contact');
+    
+    Route::post('/contact', [ContactMailController::class, 'contactSendMail'])->name('contact.send');
+    
+    
+    
+    
+    });
