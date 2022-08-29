@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\ContactMailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,11 +40,6 @@ Route::get('/awards', function () {
 Route::get('/photos', function () {
     return view('photos');
 });
-
-
-
-
-
 
 Route::get('/contactus', function(){
     return view('contactus');
