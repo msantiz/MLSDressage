@@ -57,6 +57,16 @@
 
   </div>
 
+    <!--<meta charset="utf-8">
+
+    <title>Wikicode receiving mail tutorial</title>
+
+    <meta name="description" content="Wikicode receiving mails from contact form using mailable in Laravel 8">
+    <meta name="author" content="Wikicodes">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
+
 </head>
 
 <style>
@@ -335,56 +345,60 @@
 
 
 <div style ="overflow-x:auto;">
- <?php $name = $email = $phone = $content = "";?>
-<div class = "boxes">
-<form action = "{{url('/contactus')}}" method = "post">
-{{csrf_field()}}
-
-
-
+  <div class= "boxes">
+ <!-- <div class="container mt-4">-->
+    <font size = "6" face = "Georgia">Contact Us</font><br>
+    <!--<div>Contact Us</div>-->
+    <form method="post" action="{{ route('contact.send') }}">
         <div class="form-group">
-          <label>Name*</label><br>
-          <input type="text" size="50" name="name" value="<?php echo $name; ?>" class="form-control">
+            <label for="exampleInputFirstname">Name*</label>
+            <input type="text" size="50" class="form-control" id="exampleInputFirstname" name="firstname" aria-describedby="Firstname" placeholder="Name" required>
         </div>
-        <div class = "form-group">
-    <label>Email*</label><br>
-    <input type = "email" size = "50" name = "email" class = "form-control">
+        <!--<div class="form-group">
+            <label for="exampleInputLastname">Lastname</label>
+            <input type="text" class="form-control" id="exampleInputLastname" name="lastname" aria-describedby="Lastname" placeholder="Last name" required>
+        </div>-->
+        <div class="form-group">
+            <label for="exampleInputEmail">Email*</label>
+            <input type="email" size="50" class="form-control" id="exampleInputEmail" name="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPhone">Phone Number</label>
+            <input type="text" size="50" class="form-control" id="exampleInputPhone" name="phone" placeholder="Phone Number" required>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputMessage">Message*</label>
+            <textarea class="form-control" id="exampleInputMessage" name="message" placeholder="Please enter enter your message" required></textarea>
+        </div>
+        <div class="submit-section" style="display: flex; margin-left: 80%;">
+        <input name="_token" value="{{ csrf_token() }}" type="hidden">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+
+    </form>
 </div>
 
-<div class = "form-group">
-    <label>Phone Number*</label><br>
-    <input type = "phone" size = "50" name = "phone" class = "form-control">
+
 </div>
 
-<div class = "form-group">
-    <label>Message*</label><br>
-    <textarea name = "content" class = "form-control"></textarea>
+
+<br><br><br>
+
 </div>
-                                   <div class="submit-section" style="display: flex; margin-left: 80%;"><button type ="submit" class = "btn btn-primary">Submit</button></div>
-</form>
-
-
-
-<?php
-
-
-
-if($_SERVER["REQUEST_METHOD"] == "POST"){
-    $name = test_input($_POST["name"]);
-    $email = test_input($_POST["email"]);
-    $phone = test_input($_POST["phone"]);
-    $content = test_input($_POST["content"]);
-}
-?>
-</div><br><br><br>
 </div>
              
 
  
 
 
-  </div>
+  
+<script>
+  $("#submitForm").click(function() {
+     alert("The Form has been Submitted.");
+  });
+</script>
 
+ 
 </body>
 
 <style>
