@@ -349,7 +349,7 @@
  <!-- <div class="container mt-4">-->
     <font size = "6" face = "Georgia">Contact Us</font><br>
     <!--<div>Contact Us</div>-->
-    <form method="post" action="{{ route('contact.send') }}">
+    <form method="post" action="{{ route('contact2.send') }}">
         <div class="form-group">
             <label for="exampleInputFirstname">Name*</label>
             <input type="text" size="50" class="form-control" id="exampleInputFirstname" name="firstname" aria-describedby="Firstname" placeholder="Name" required>

@@ -12,11 +12,12 @@ use Illuminate\Support\Facades\Mail;
 
 class ContactMailController extends Controller {
 
-//public function index() {
+public function index() {
 
-      //return view('contact');
+      return view('contact2');
+      //return view('contactus');
 
-//}
+}
 
 
 /** * Send Contact Email Function via Mail. * * @return RedirectResponse */
@@ -25,7 +26,9 @@ public function contactSendMail(ContactRequest $request): RedirectResponse {
 
          $validatedData = $request->validated();
 
-         Mail::to("santizml@gmail.com")->send(new ContactMail($validatedData));
+         Mail::to('santizml@gmail.com')->send(new ContactMail($validatedData));
+
+   
 
   
          header('Location: contact2');
