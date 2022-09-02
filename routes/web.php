@@ -55,7 +55,7 @@ Route::get('/contact2', function(){
 
 Route::middleware(['guest'])->group(function(){
 
-    Route::get('/contact2', [ContactMailController::class, 'index'])->name('contact2');
+    //Route::get('/contact2', [ContactMailController::class, 'index'])->name('contact2');
     
     Route::post('/contact2', [ContactMailController::class, 'contactSendMail'])->name('contact2.send');
     

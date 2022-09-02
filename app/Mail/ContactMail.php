@@ -10,6 +10,7 @@ class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $validatedData;
     public $firstname;
     //public $lastname;
     public $phone;

@@ -12,12 +12,12 @@ use Illuminate\Support\Facades\Mail;
 
 class ContactMailController extends Controller {
 
-public function index() {
+//public function index() {
 
-      return view('contact2');
+      //return view('contact2');
       //return view('contactus');
 
-}
+//}
 
 
 /** * Send Contact Email Function via Mail. * * @return RedirectResponse */
