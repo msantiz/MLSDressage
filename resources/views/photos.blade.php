@@ -29,7 +29,7 @@
 
 <div class="dropdown-content">
 
-<a href="./tenyear">Ten Year Plan</a>
+
 
 <a href="./career">Career</a>
 
@@ -42,7 +42,8 @@
 </div>
 
 
-  <a href="./marketing">Marketing Pitch</a>
+<a href="./services">Services</a>
+<a href="./marketing">Sponsors</a>
   <a href="https://dressagediscussions.home.blog/" target="_blank">Blog</a>
 
     <a href="./contactus">Contact Us</a>

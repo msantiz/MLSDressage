@@ -8,7 +8,6 @@
         <div class = "header">
 
         <h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Mara Santiz Dressage</b></font></center></h1>
-        
 <div class="picture">
 <img src = "../images/logo2020.png" width="150" height="150" align = "left" class="horse">
 </div>
@@ -29,7 +28,7 @@
 
 <div class="dropdown-content">
 
-
+<!--<a href="./tenyear">Ten Year Plan</a>-->
 
 <a href="./career">Career</a>
 
@@ -41,9 +40,8 @@
 
 </div>
 
-
-<a href="./services">Services</a>
-<a href="./marketing">Sponsors</a>
+  <a href="./services">Services</a>
+  <a href="./marketing">Sponsors</a>
   <a href="https://dressagediscussions.home.blog/" target="_blank">Blog</a>
 
     <a href="./contactus">Contact Us</a>
@@ -247,6 +245,27 @@ background-color:   #C0C0C0;
 
 }
 
+
+
+ .list{
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .list1{
+  display: flex;
+  justify-content: space-around;
+ }
+
+
+
+.Box{
+  border:3px;
+border-style:solid;
+border-color:black;
+padding:1em;
+}
+
 .box{
   border:3px;
 border-style:solid;
@@ -265,91 +284,29 @@ display: block;
 }
 
 
-/* 
-.bigbox
-width: 75%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%); 
-    
-    
-.list 
-remove padding
+@media only screen and (max-width: 1150px){
+  .list{
+    flex-direction: column;
+  }
+}
 
-.box 
-margin: 42px*/
+  @media screen and (max-width: 1000px){
 
-</style>
+.picture{
+  display: flex;
+  justify-content: center;
+  margin-block-start: 1.34em;
+  margin-block-end: 1.34em;
+}
 
- 
-
- 
-
- 
-
- 
-
-<body>
+.horse{
+position: relative;
+margin-right: 45px;
+margin-bottom: 40px;
+}
 
 
-<div class = "bigbox">
-<br>
-<div class = "box"><br>
-<font size = "6" face = "roboto" color = "white"><b>University of Michigan-Dearborn</b></font><br>
-<font size = "5" face = "roboto" color = "white">Master of Buisness Administration</font><br>
-<font size = "5" face = "roboto" color = "white">Concentrations in Information Systems Management and International Business</font><br>
-<font size = "5" face = "roboto" color = "white">Cummulative GPA: 3.4</font><br>
-<font size = "5" face = "roboto" color = "white">Expected Graduation: 2023</font><br><br><br>
-
-<font size = "6" face = "roboto" color = "white"><b>University of Michigan-Dearborn</b></font><br>
-<font size = "5" face = "roboto" color = "white">BBA- Information Systems Management</font><br>
-<font size = "5" face = "roboto" color = "white">Cummulative GPA: 3.7</font><br>
-<font size = "5" face = "roboto" color = "white">Graduated with High Honors</font><br><br><br>
-
-<font size = "6" face = "roboto" color = "white"><b>Relevant Coursework and Projects</b></font><br>
-<font size = "5" face = "roboto" color = "white">
-<ul>
-<li>Business Application Programming (HTML, CSS, JavaScript): designed and wrote the code for this site</li>
-<li>Information Systems Management courses</li>
-</ul>
-</font><br>
-
-<font size = "6" face = "roboto" color = "white"><b>Awards and Honors</b></font><br>
-<font size = "5" face = "roboto" color = "white">
-<ul>
-<li>Dean's List at the University of Michigan-Dearborn</li>
-<li>Honor Roll at the University of Michigan-Dearborn</li>
-</ul>
-</font><br>
-</div>
-<br>
-</div>
- 
-
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        
-    </body>
-
-    <style>
-@media screen and (max-width: 1000px){
-
-   .picture{
-     display: flex;
-     justify-content: center;
-     margin-block-start: 1.34em;
-     margin-block-end: 1.34em;
-   }
- 
- .horse{
-   position: relative;
-   margin-right: 45px;
-   margin-bottom: 40px;
- }
-
- .bigbox{
+.bigbox{
 display: block;
 padding:3em;
     background-color: #333;
@@ -366,9 +323,89 @@ border-color:white;
 padding:1em;
 margin: 10px;
 }
+
+}
+
+
+
+</style>
+
  
 
- }
-</style>
+ 
+
+<body>
+<div class ="bigbox">
+<br><br><br>
+
+<center><font size = "6" face = "Palatino" color = "white">Services</center>
+</font>
+
+  <font size = "5" face = "Palatino" color = "white">
+  <div class = "list">
+
+<div class = "box">
+
+<ul>
+
+<li>Group lesson on a school horse (one hour): $50</li>
+
+<li>Group lesson on your horse (one hour): $40</li>
+
+<li>Private lesson on a school horse (half hour): $55</li>
+
+<li>Private Lesson on your horse (half hour): $50</li>
+
+<li>Training ride: $45</li>
+
+<li>Coaching at competitions: $20 per day</li>
+
+<li>Clinics: $65 per lesson plus travel expenses</li>
+
+
+
+
+</ul></font>
+<center><font size = "3" face = "Palatino" color = "white">*group lessons have 3-4 students*</font></center>
+</div>
+
+
+</div>
+
+
+
+<br>
+
+
+<center><font size = "5" face = "Palatino" color = "white">------------------------֎------------------------<br><br><br>
+</font>
+
+<font size = "6" face = "Palatino" color = "white">Current Specials
+</font></center>
+
+<font size = "5" face = "Palatino" color = "white">
+<div class = "list1">
+<div class = "box">
+<ul>
+
+<li>Monthly group lesson package on a school horse:<br>$190 per month</li><br>
+<li>Monthly group lesson package on your horse:<br>$150 per month</li><br>
+<li>Monthly private lesson package on a school horse:<br>$210 per month</li><br>
+<li>Monthly private lesson package on your horse:<br>$190 per month</li>
+
+
+
+
+</ul></font>
+<center><font size = "3" face = "Palatino" color = "white">*payment due on the first of the month*</font></center>
+</div>
+
+</div>
+<br><br>
+</div>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+</body>
 
 </html>

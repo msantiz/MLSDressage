@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/
+  css/bootstrap.min.css" >
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" >
+  </script>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,7 +34,7 @@
 
           <div class="dropdown-content">
 
-            <a href="./tenyear">Ten Year Plan</a>
+            
 
             <a href="./career">Career</a>
 
@@ -41,7 +47,8 @@
         </div>
 
 
-        <a href="./marketing">Marketing Pitch</a>
+        <a href="./services">Services</a>
+        <a href="./marketing">Sponsors</a>
         <a href="https://dressagediscussions.home.blog/" target="_blank">Blog</a>
 
 
@@ -57,16 +64,7 @@
 
   </div>
 
-    <!--<meta charset="utf-8">
-
-    <title>Wikicode receiving mail tutorial</title>
-
-    <meta name="description" content="Wikicode receiving mails from contact form using mailable in Laravel 8">
-    <meta name="author" content="Wikicodes">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
-
+    
 </head>
 
 <style>
@@ -187,6 +185,11 @@
     background-color: red;
 
   }
+  .navbar:active {
+
+    color: red;
+
+  }
 
 
 
@@ -276,6 +279,29 @@
     width: 57%;
     position: relative;
   }
+
+  .div_border{
+width:60%;
+margin:0 auto;
+border:1px solid #ccc;
+}
+.has-error
+{
+border-color:#cc0000;a
+background-color:#ffff99;
+}
+
+.alert-block{
+display: flex;
+justify-content: center;
+transform: translateX(48%);
+width:70%;
+padding: 12px 16px;
+display: inline-block;
+border:2px solid #ccc;
+position: relative;
+}
+
 </style>
 
 
@@ -317,7 +343,7 @@
           <font size="5" face="roboto" color="white"><u><b>E-mail</b></u></font>
         </center><br><br>
 
-        <font size="4" face="roboto" color="white">santizml@gmail.com<br></font><br><br><br>
+        <font size="4" face="roboto" color="white">mlsdressage@gmail.com<br></font><br><br><br>
 
       </div>
 
@@ -336,55 +362,72 @@
 
       </div>
 
-    </div><br><br>
+    </div><br>
 
  
 <div class="google-maps">
-<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94471.64080072628!2d-83.80772974902668!3d42.273426116098115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cb00dd4431f33%3A0xdb09f94686c8b5e2!2sAnn%20Arbor%2C%20MI!5e0!3m2!1sen!2sus!4v1584385110878!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center><br><br><br><br><br><br><br>        
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94471.64080072628!2d-83.80772974902668!3d42.273426116098115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cb00dd4431f33%3A0xdb09f94686c8b5e2!2sAnn%20Arbor%2C%20MI!5e0!3m2!1sen!2sus!4v1584385110878!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center><br><br><br>       
 </div>
 
 
-<div style ="overflow-x:auto;">
-  <div class= "boxes">
- <!-- <div class="container mt-4">-->
-    <font size = "6" face = "Georgia">Contact Us</font><br>
-    <!--<div>Contact Us</div>-->
-    <form method="post" action="{{ route('contact2.send') }}">
-        <div class="form-group">
-            <label for="exampleInputFirstname">Name*</label>
-            <input type="text" size="50" class="form-control" id="exampleInputFirstname" name="firstname" aria-describedby="Firstname" placeholder="Name" required>
-        </div>
-        <!--<div class="form-group">
-            <label for="exampleInputLastname">Lastname</label>
-            <input type="text" class="form-control" id="exampleInputLastname" name="lastname" aria-describedby="Lastname" placeholder="Last name" required>
-        </div>-->
-        <div class="form-group">
-            <label for="exampleInputEmail">Email*</label>
-            <input type="email" size="50" class="form-control" id="exampleInputEmail" name="email" placeholder="Email" required>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputPhone">Phone Number</label>
-            <input type="text" size="50" class="form-control" id="exampleInputPhone" name="phone" placeholder="Phone Number" required>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputMessage">Message*</label>
-            <textarea class="form-control" id="exampleInputMessage" name="message" placeholder="Please enter enter your message" required></textarea>
-        </div>
-        <div class="submit-section" style="display: flex; margin-left: 80%;">
-        <input name="_token" value="{{ csrf_token() }}" type="hidden">
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-
-    </form>
-</div>
 
 
-</div>
-
-
-<br><br><br>
-
-</div>
+<div class="container" style="width:65%">
+  @if (count($errors) > 0)
+  <div class="alert alert-danger">
+  <button type="button" class="close" data-dismiss="alert">×</button>
+  <ul>
+  @foreach ($errors->all() as $error)
+  <li>{{ $error }}</li>
+  @endforeach
+  </ul>
+  </div>
+  @endif
+  @if ($message = Session::get('success'))
+  <div class="alert alert-success alert-block">
+  <button type="button" class="close" data-dismiss="alert">×</button>
+  <strong>{{ $message }}</strong>
+  <br><br>
+  </div>
+  @endif
+  </div>
+<br>
+  <div style ="overflow-x:auto;">
+    <div class= "boxes">
+  
+      <font size = "6" face = "Georgia">Contact Us</font><br>
+      <br />
+  <br />
+  
+  <!--<div class="container div_border">-->
+  <form method="post" action="{{url('sendemail/send')}}">
+  {{ csrf_field() }}
+  <div class="form-group">
+  <label>Name</label>
+  <input type="text" name="name" class="form-control" value="" />
+  </div>
+  <div class="form-group">
+  <label>Email</label>
+  <input type="text" name="email" class="form-control" value="" />
+  </div>
+  <div class="form-group">
+  <label>Message</label>
+  <textarea name="message" class="form-control"></textarea>
+  </div>
+  <div class="form-group" align="center">
+  <input type="submit" name="send" class="btn btn-success" value="Send Message" />
+  </div>
+  </form>
+  <!--</div>-->
+  </div>
+  
+  
+  </div>
+  
+  
+  <br><br><br>
+  
+  
 </div>
              
 
@@ -392,11 +435,7 @@
 
 
   
-<script>
-  $("#submitForm").click(function() {
-     alert("The Form has been Submitted.");
-  });
-</script>
+
 
  
 </body>

@@ -1,5 +1,7 @@
 <?php
+//use App\Mail\ContactMail;
 use App\Http\Controllers\ContactMailController;
+//use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -45,15 +47,20 @@ Route::get('/contactus', function(){
     return view('contactus');
 });
 
-Route::get('/contact2', function(){
-    return view('contact2');
+Route::get('/services', function(){
+    return view('services');
 });
 
+//Route::get('/emailsend', function(){
+    //return view('emailsend');
+//});
+
+Route::get('/contactus', 'App\Http\Controllers\ContactMailController@index');
+Route::post('/sendemail/send', 'App\Http\Controllers\ContactMailController@send');
 
 
 
-
-Route::middleware(['guest'])->group(function(){
+/*Route::middleware(['guest'])->group(function(){
 
     //Route::get('/contact2', [ContactMailController::class, 'index'])->name('contact2');
     
@@ -64,4 +71,4 @@ Route::middleware(['guest'])->group(function(){
     //Route::post('contact', [ContactMailController::class, 'contactSendMail'])->name('contact.send');
     
     
-    });
+    });*/

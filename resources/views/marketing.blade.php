@@ -29,7 +29,7 @@
 
 <div class="dropdown-content">
 
-<a href="./tenyear">Ten Year Plan</a>
+
 
 <a href="./career">Career</a>
 
@@ -42,7 +42,8 @@
 </div>
 
 
-  <a href="./marketing">Marketing Pitch</a>
+<a href="./services">Services</a>
+<a href="./marketing">Sponsors</a>
   <a href="https://dressagediscussions.home.blog/" target="_blank">Blog</a>
 
     <a href="./contactus">Contact Us</a>
@@ -264,6 +265,11 @@ display: block;
     position: relative;
 }
 
+.list{
+  display: flex;
+  justify-content: space-around;
+ }
+
 
 /* 
 .bigbox
@@ -293,7 +299,47 @@ margin: 42px*/
 
 
 <div class = "bigbox">
-<br>
+<br><br>
+
+<center><font size = "6" face = "Palatino" color = "white">Sponsors</center>
+</font>
+  <font size = "5" face = "Palatino" color = "white">
+  <div class = "list">
+  
+  <div class = "box">
+  
+  <ul>
+  
+  <li><a href="https://mysaddle.com/en" target="_blank" style="color:white">Custom Saddlery</a></li>
+  
+  <li><a href="https://www.grandmeadows.com/" target="_blank" style="color:white">Grand Meadows</a></li>
+  
+  <li><a href="https://www.bridlesandreins.com/" target="_blank" style="color:white">Bridles & Reins</a></li>
+  
+  <li><a href="https://espritequestrian.com/" target="_blank" style="color:white">Esprit Equestrian</a></li>
+  
+  </ul>
+</div>
+</div>
+
+</font>
+  
+
+  
+
+  
+  
+  
+  
+  
+  <br>
+  <center><font size = "5" face = "Palatino" color = "white">------------------------֎------------------------<br><br><br>
+  </font>
+  <font size = "6" face = "Palatino" color = "white">Services
+  </font></center>
+
+
+
 <div class = "box">
 <center><font size = "5" face = "roboto" color = "white"><p>My name is Mara Santiz and I am 26 years old. I
 graduated from the University of Michigan-Dearborn in 2019, and
@@ -351,6 +397,11 @@ in my success, please feel free to contact me.</p>
         
     </body>
     <style>
+@media only screen and (max-width: 1150px){
+  .list{
+    flex-direction: column;
+  }
+
 @media screen and (max-width: 1000px){
 
    .picture{
