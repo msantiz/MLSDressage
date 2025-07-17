@@ -10,7 +10,7 @@
         <h1> <center><font size = "10" face = "Georgia" color = "black"> <b>MLS Dressage</b></font></center></h1>
 
 <div class="picture">
-<img src = "../images/PhotoRoom_20230324_053704.PNG" width="150" height="150" align = "left" class="horse" style="margin-left: 90px;">
+<img src = "/images/PhotoRoom_20230324_053704.PNG" width="150" height="150" align = "left" class="horse" style="margin-left: 90px;">
 </div>
 
 <div class = "flex">
@@ -282,7 +282,7 @@ padding:3em;
 
                              <!--<div class= "numbertext">1 / 2</div>-->
 
-                             <img src = "../images/Ferdie-main-page copy.jpg" style="width:100%">
+                             <img src = "/images/Ferdie-main-page copy.jpg" style="width:100%">
 
                              <!--<div class="text">caption text</div>-->
 
@@ -291,7 +291,7 @@ padding:3em;
               <div class ="mySlides fade">
 
                              <!--<div class= "numbertext">2 / 2</div>-->
-                             <center><img src = "../images/IMG_6367.jpg" style="width:50%"></center>
+                             <center><img src = "/images/IMG_6367.jpg" style="width:50%"></center>
 
                         
 
@@ -303,7 +303,7 @@ padding:3em;
 
                             
 
-                             <img src = "../images/IMG_3802.jpg" style="width: 100%">
+                             <img src = "/images/IMG_3802.jpg" style="width: 100%">
 
              
 
@@ -314,7 +314,7 @@ padding:3em;
                             
 
                              <!--<center><img src = "../images/IMG_4608.jpg" style="width: 90%" style="height: 90%"></center>-->
-                      <center><img src = "../images/IMG_5570.JPG" style="width: 50%"></center>
+                      <center><img src = "/images/IMG_5570.JPG" style="width: 50%"></center>
              
 
               </div>
@@ -323,7 +323,7 @@ padding:3em;
 
                             
 
-                             <img src = "../images/IMG_3487.jpg" style="width: 100%">
+                             <img src = "/images/IMG_3487.jpg" style="width: 100%">
 
              
 
@@ -334,7 +334,7 @@ padding:3em;
                             
 
                              
-                        <center><img src = "../images/IMG_5235.jpeg" style="width: 50%"></center>
+                        <center><img src = "/images/IMG_5235.jpeg" style="width: 50%"></center>
              
 
               </div>
@@ -343,7 +343,7 @@ padding:3em;
 
                             
 
-                             <img src = "../images/mara-11192017-rf-51 (1).jpg" style="width: 100%">
+                             <img src = "/images/mara-11192017-rf-51 (1).jpg" style="width: 100%">
 
              
 
@@ -353,7 +353,7 @@ padding:3em;
 
                             
 
-                             <center><img src = "../images/IMG_9249.JPG" style="width: 44%"></center>
+                             <center><img src = "/images/IMG_9249.JPG" style="width: 44%"></center>
 
              
 
@@ -408,7 +408,7 @@ padding:3em;
   
   <p>Follow the ride. Support the mission. Be part of the movement.</p><br>
 
-  <center><img src = "../images/IMG_6927.jpeg" style="width: 25%"></center><br><br>
+  <center><img src = "/images/IMG_6927.jpeg" style="width: 25%"></center><br><br>
 
 ---------------֎---------------<br><br><br>Credentials & Recognition</center>
 
