@@ -25,11 +25,10 @@ public function contactSendMail(ContactRequest $request): RedirectResponse {
 
          $validatedData = $request->validated();
 
-         Mail::to("santizml@gmail.com")->send(new ContactMail($validatedData));
+         Mail::to("santizml@gmail.com")->send(new \App\Mail\ContactMail($validatedData));
 
   
-         header('Location: contact2');
-exit();
+         return redirect('/contact2')->with('success', 'Thanks for reaching out - we will be in touch soon!');
          //return back();
          
 
