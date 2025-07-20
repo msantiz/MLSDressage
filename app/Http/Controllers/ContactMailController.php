@@ -25,7 +25,7 @@ public function contactSendMail(ContactRequest $request): RedirectResponse {
 
          $validatedData = $request->validated();
 
-         Mail::to("santizml@gmail.com")->send(new \App\Mail\ContactMail($validatedData));
+         Mail::to("mlsdressage@gmail.com")->send(new \App\Mail\ContactMail($validatedData));
 
   
          return redirect('/contact2')->with('success', 'Thanks for reaching out - we will be in touch soon!');
