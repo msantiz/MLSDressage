@@ -408,9 +408,9 @@ padding:3em;
   
   <p>Follow the ride. Support the mission. Be part of the movement.</p><br>
 
-  <center><img src = "/images/IMG_6927.jpeg" style="width: 25%"></center><br><br>
+  <center><img src = "/images/IMG_6927.jpeg" class="pef" style="width: 25%"></center><br><br>
 
----------------֎---------------<br><br><br>Credentials & Recognition</center>
+--------------֎--------------<br><br><br>Credentials & Recognition</center>
 
  
 
@@ -470,22 +470,6 @@ padding:3em;
 
 
 </div>
- 
-
-<!--<div class = "list2">
-
-<ul>
-
-<li>nothing</li>
-
-<li>not</li>
-
-</ul></font><br><br>
-
-</div>-->
-
- 
-
  
 
  
@@ -608,8 +592,12 @@ img{vertical-align: middle;}
  
  .horse{
    position: relative;
-   margin-right: 45px;
+   margin-right: 120px;
    margin-bottom: 40px;
+ }
+
+ .pef{
+  width: 70% !important;
  }
 
  

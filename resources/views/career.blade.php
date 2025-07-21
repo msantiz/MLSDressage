@@ -311,7 +311,7 @@ body{
  
  .horse{
    position: relative;
-   margin-right: 45px;
+   margin-right: 120px;
    margin-bottom: 40px;
  }
 
@@ -321,7 +321,7 @@ body{
   background-color: #333;
   left: 50%;
   transform: translateX(-50%);
-  width: 70%;
+  width: 90%;
   position: relative;
 }
 

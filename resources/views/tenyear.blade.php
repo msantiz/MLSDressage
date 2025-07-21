@@ -314,7 +314,7 @@ body{
  
  .horse{
    position: relative;
-   margin-right: 45px;
+   margin-right: 120px;
    margin-bottom: 40px;
  }
 
