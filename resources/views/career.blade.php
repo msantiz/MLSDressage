@@ -246,7 +246,7 @@ body{
 <div class = "bigbox"><br>
   <h1> <center><font size = "6" face = "roboto" color = "white"> <i>"Dressage with Purpose"</i></font></center></h1>
 
-  <div class = "box"><br>
+  <div class = "box">
 
     <font size = "5" face = "roboto" color = "white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Mara Ziadeh- a dressage rider, advocate, and product 
       manager based in Michigan. I'm currently training my horse, Lucas, with the long-term goal of representing 
@@ -321,7 +321,7 @@ body{
   background-color: #333;
   left: 50%;
   transform: translateX(-50%);
-  width: 90%;
+  width: 81%;
   position: relative;
 }
 

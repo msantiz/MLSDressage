@@ -231,6 +231,8 @@ body{
 
   display: block;
 
+
+
   background-color: #333;
 
   left: 50%;
@@ -611,7 +613,7 @@ img.hover-shadow{
   
           </div>
 
-        </div><br>
+        </div>
 
       </div><br>
 
@@ -877,7 +879,7 @@ function showSlides(n){
  
  .horse{
    position: relative;
-   margin-right: 45px;
+   margin-right: 120px;
    margin-bottom: 40px;
  }
  .column{
@@ -886,12 +888,13 @@ function showSlides(n){
  }
 
  .bigbox{
+
 display: block;
 padding:3em;
     background-color: #333;
     left: 50%;
     transform: translateX(-50%);
-    width: 90%;
+    width: 100%;
     position: relative;
 }
 

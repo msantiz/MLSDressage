@@ -246,22 +246,30 @@ background-color:   #C0C0C0;
 }
 
 .box{
-  position: relative;
+display: block;
   border:3px;
 border-style:solid;
 border-color:white;
-padding:1em;
-margin: 42px;
+
 }
 
 .bigbox{
 display: block;
+justify-content: center;
 padding:3em;
     background-color: #333;
     left: 50%;
     transform: translateX(-50%);
     width: 57%;
     position: relative;
+}
+
+.list {
+  display: flex;
+
+  justify-content: center;
+
+  padding: 20px;
 }
 
 
@@ -418,17 +426,7 @@ padding:3em;
 
  
 
-<!--<div class = "list3">
 
-<ul>
-
-<li>hello</li>
-
-<li>world</li>
-
-</ul>
-
-</div>-->
 
  
 
@@ -438,33 +436,22 @@ padding:3em;
 
 <ul><font face = "roboto" color = "white">
 
-<li>USDF Bronze Medalist</li><br>
+<li>USDF Bronze Medalist</li>
 
-<li>Prix St. George's Competitor</li><br>
+<li>Prix St. George's Competitor</li>
 
-<li>USDF Young Rider Graduate</li><br>
+<li>USDF Young Rider Graduate</li>
 
-<li>Experience<br>starting young horses under<br> saddle</li>
-
-
-
-</ul></font></div>
-
-
-
-<div class = "box">
-
-<ul><font face = "roboto" color = "white">
-
-
+<li>Experience starting young horses under saddle</li>
 
 <li>Selected for D4K Team Program</li>
 
-<li>Named a Top 10 Blog of 2019 by<br><i>Chronicle of the Horse</i></li>
+<li>Named a Top 10 Blog of 2019 by <i>Chronicle of the Horse</i></li>
 
-<li>Founder of <br><b>Dressage with <br>Purpose</b>, advocating<br>for Palestine<br>through sport</li>
+<li>Founder of <b>Dressage with Purpose</b>, advocating for Palestine through sport</li>
 
 </ul></font></div>
+
 
 </div>
 
@@ -580,7 +567,11 @@ img{vertical-align: middle;}
 
  @media only screen and (max-width: 1000px){
    .list{
-     flex-direction: column;
+
+     justify-content: center;
+
+
+
    }
   
    .picture{
@@ -597,12 +588,16 @@ img{vertical-align: middle;}
  }
 
  .pef{
-  width: 70% !important;
+  width: 60% !important;
  }
 
  
   .box{
+
      font-size: 16px;
+     width: 85%;
+
+
    }
    .bigbox{
 display: block;
@@ -610,40 +605,14 @@ padding:3em;
     background-color: #333;
     left: 50%;
     transform: translateX(-50%);
-    width: 90%;
+    width: 100%;
     position: relative;
 }
  }
 
 
-.list {
 
-              display: flex;
 
-              justify-content: space-around;
-              
-
-              }
-
-<!--.list2{
-
-              position: absolute;
-
-              top : 725px;
-
-              left : 550px;
-
-              }
-
-.list3{
-
-              position: absolute;
-
-              top : 725px;
-
-              left : 200px;
-
-              }
 
  
 

@@ -324,7 +324,7 @@ padding:3em;
     background-color: #333;
     left: 50%;
     transform: translateX(-50%);
-    width: 90%;
+    width: 81%;
     position: relative;
 }
 

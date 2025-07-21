@@ -210,7 +210,7 @@ body{
 }
 
 .box{
-
+  position: relative;
   border:3px;
   border-style:solid;
   border-color:white;
@@ -238,7 +238,7 @@ body{
   <div class = "bigbox"><br>
     <h1> <center><font size = "6" face = "roboto" color = "white"> <i>"Dressage with Purpose"</i></font></center></h1>
 
-    <div class = "box"><br>
+    <div class = "box">
 
       <font size = "5" face = "roboto" color = "white"><u>Riding Credentials</u></font><br>
       <font size = "5" face = "roboto" color = "white">
@@ -302,7 +302,7 @@ body{
   background-color: #333;
   left: 50%;
   transform: translateX(-50%);
-  width: 90%;
+  width: 81%;
   position: relative;
 }
 
