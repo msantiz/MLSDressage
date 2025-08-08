@@ -23,7 +23,12 @@ class ContactMailController extends Controller {
 
 public function contactSendMail(ContactRequest $request): RedirectResponse {
 
-         $validatedData = $request->validated();
+         $validatedData = $request->validated(/*[
+        'firstname' => 'required|string|max:100',
+        'email'     => 'required|email:rfc,dns|max:255',
+        'phone'     => 'nullable|string|max:30',   // <= allow null
+        'message'   => 'required|string|max:5000',
+         ]*/);
 
          Mail::to("mlsdressage@gmail.com")->send(new \App\Mail\ContactMail($validatedData));
 
