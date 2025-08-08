@@ -351,7 +351,7 @@
     <form method="post" action="{{ route('contact.send') }}">
         <div class="form-group">
             <label for="exampleInputFirstname">Name*</label>
-            <input type="text" size="50" class="form-control" id="exampleInputFirstname" name="firstname" aria-describedby="Firstname" placeholder="Name" required>
+            <input type="text" size="50" class="form-control" id="exampleInputFirstname" name="firstname" aria-describedby="Firstname" placeholder="Name" required maxlength="100" pattern="[A-Za-z\s\-\']+">
         </div>
         <!--<div class="form-group">
             <label for="exampleInputLastname">Lastname</label>
@@ -359,15 +359,15 @@
         </div>-->
         <div class="form-group">
             <label for="exampleInputEmail">Email*</label>
-            <input type="email" size="50" class="form-control" id="exampleInputEmail" name="email" placeholder="Email" required>
+            <input type="email" size="50" class="form-control" id="exampleInputEmail" name="email" placeholder="Email" required maxlength="255">
         </div>
         <div class="form-group">
             <label for="exampleInputPhone">Phone Number</label>
-            <input type="text" size="50" class="form-control" id="exampleInputPhone" name="phone" placeholder="Phone Number" required>
+            <input type="text" size="50" class="form-control" id="exampleInputPhone" name="phone" placeholder="Phone Number" required maxlength="20" pattern="[0-9+\-\s()]*">
         </div>
         <div class="form-group">
             <label for="exampleInputMessage">Message*</label>
-            <textarea class="form-control" id="exampleInputMessage" name="message" placeholder="Please enter enter your message" required></textarea>
+            <textarea class="form-control" id="exampleInputMessage" name="message" placeholder="Please enter enter your message" required maxlength="1000"></textarea>
         </div>
         <div class="submit-section" style="display: flex; margin-left: 80%;">
         <input name="_token" value="{{ csrf_token() }}" type="hidden">

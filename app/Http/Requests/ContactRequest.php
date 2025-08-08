@@ -22,15 +22,15 @@ public function rules() {
 
        return [
 
-            'firstname' => 'required|max:25|string',
+            'firstname' => 'required|max:100|string|regex:/^[A-Za-z\s\-\']+$/',
 
              //'lastname' => 'max:255|string',
 
-             'email' => 'required|max:30|email',
+             'email' => 'required|max:255|email',
 
-             'phone' => 'numeric|nullable',
+             'phone' => 'nullable|string|max:|regex:/^[0-9+\-\s()]*$/',
 
-             'message' => 'required|max:200|string',
+             'message' => 'required|max:1000|string',
 
          ];
 
