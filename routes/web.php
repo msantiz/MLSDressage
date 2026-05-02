@@ -17,12 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/tenyear', function () {
-    return view('tenyear');
+Route::get('/projects', function () {
+    return view('projects');
 });
 
-Route::get('/marketing', function () {
-    return view('marketing');
+Route::get('/about', function () {
+    return view('about');
 });
 
 Route::get('/education', function () {
@@ -33,8 +33,8 @@ Route::get('/career', function () {
     return view('career');
 });
 
-Route::get('/awards', function () {
-    return view('awards');
+Route::get('/sponsorships', function () {
+    return view('sponsorships');
 });
 
 Route::get('/photos', function () {
